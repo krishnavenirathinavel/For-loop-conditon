@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+  int M,N, i;
+  scanf("%d",&M);
+  scanf("%d",&N);
+  int result = 0, sum = 0;
+  for( i = M; i <= N;i = i + M){
+    sum += i;
+  }
+  printf("%d",sum);
+  return 0;
+}
+ 
+  
